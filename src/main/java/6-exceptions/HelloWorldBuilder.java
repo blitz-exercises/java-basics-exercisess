@@ -96,7 +96,7 @@ public class HelloWorldBuilder {
      * Should throw an exception that will be caught by the seventh catch block (for "r").
      * The catch block will add "r".
      */
-    public static void addR() {
+    public static void addR() throws Exception {
         // TODO: Throw an exception that will be caught by the seventh catch block
         // Hint: The seventh catch block catches Exception
         throw new UnsupportedOperationException("Not yet implemented");
