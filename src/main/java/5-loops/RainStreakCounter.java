@@ -1,3 +1,5 @@
+package loops;
+
 /**
  * Rain-Streak Counter
  * 

@@ -1,3 +1,5 @@
+package exceptions;
+
 /**
  * Weak Spell Exception
  * 

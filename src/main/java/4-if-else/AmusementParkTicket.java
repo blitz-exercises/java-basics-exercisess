@@ -1,3 +1,5 @@
+package ifelse;
+
 /**
  * Amusement-Park Ticket
  * 

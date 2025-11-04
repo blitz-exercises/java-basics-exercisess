@@ -1,3 +1,5 @@
+package collections;
+
 /**
  * Bus-Seats
  * 

@@ -1,3 +1,5 @@
+package variablesandprimitivedatatypes;
+
 /**
  * Fantasy-Potion Mix
  * 

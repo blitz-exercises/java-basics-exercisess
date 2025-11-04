@@ -1,3 +1,5 @@
+package exceptions;
+
 /**
  * Adventure Path Parser
  * 

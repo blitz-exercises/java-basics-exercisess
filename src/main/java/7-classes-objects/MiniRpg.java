@@ -1,3 +1,5 @@
+package classesandobjects;
+
 /**
  * Mini-RPG Combat
  * 

@@ -1,3 +1,5 @@
+package methodsfunctions;
+
 /**
  * VAT Calculator
  * 

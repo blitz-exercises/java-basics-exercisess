@@ -1,3 +1,5 @@
+package variablesandprimitivedatatypes;
+
 /**
  * Cafe Tip-Jar
  * 

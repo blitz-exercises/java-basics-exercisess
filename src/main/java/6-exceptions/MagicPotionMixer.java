@@ -1,3 +1,5 @@
+package exceptions;
+
 /**
  * Magic Potion Mixer
  * 

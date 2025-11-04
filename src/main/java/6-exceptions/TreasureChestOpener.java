@@ -1,3 +1,5 @@
+package exceptions;
+
 /**
  * Treasure Chest Opener
  * 

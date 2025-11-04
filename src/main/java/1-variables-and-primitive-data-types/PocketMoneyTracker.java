@@ -1,3 +1,5 @@
+package variablesandprimitivedatatypes;
+
 /**
  * Pocket-Money Tracker
  * 
