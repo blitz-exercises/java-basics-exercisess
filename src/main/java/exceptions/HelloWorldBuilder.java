@@ -3,7 +3,12 @@ package exceptions;
 /**
  * Hello World Builder
  * 
- * Goal: Build the string "hello world" by catching exceptions and adding letters in catch blocks.
+ * <p>A puzzle challenges you to build the string "hello world" using a series of specially designed methods.
+ * Each method throws a different exception. By catching these exceptions in the correct order,
+ * you'll accumulate letters that spell out the final message. This exercise teaches the Java exception
+ * hierarchy and the importance of exception handling order.</p>
+ * 
+ * <p><b>Learning Focus:</b> Understanding the exception hierarchy, catch block ordering, and the finally block.</p>
  * 
  * EXCEPTION HIERARCHY:
  * - Throwable is the root of all exceptions

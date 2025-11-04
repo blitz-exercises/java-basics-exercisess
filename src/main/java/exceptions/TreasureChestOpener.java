@@ -3,10 +3,12 @@ package exceptions;
 /**
  * Treasure Chest Opener
  * 
- * Goal: Write a method that safely gets the treasure name from a treasure chest object.
- * The chest might be null, or the treasure inside might be null.
- * Use try-catch to handle NullPointerException and return "No treasure found" instead of crashing.
- * You must use exception handling, not just null checks.
+ * <p>An adventurer discovers a treasure chest but must be cautious: the chest itself might be missing,
+ * or the treasure inside might be lost. Rather than checking for null before accessing the treasure,
+ * use exception handling to gracefully deal with missing treasures.</p>
+ * 
+ * <p><b>Learning Focus:</b> Using try-catch to handle NullPointerException instead of preventive
+ * null checks (demonstrating when exception handling is appropriate).</p>
  */
 public class TreasureChestOpener {
     public static class TreasureChest {
@@ -19,6 +21,12 @@ public class TreasureChestOpener {
         }
     }
     
+    /**
+     * Safely retrieves the treasure from a chest.
+     * 
+     * @param chest the treasure chest (may be null, or may contain null treasure)
+     * @return the treasure name if found, or "No treasure found" if the chest or treasure is null
+     */
     public static String openTreasure(TreasureChest chest) {
         // TODO: Use try-catch to handle NullPointerException
         throw new UnsupportedOperationException("Not yet implemented");

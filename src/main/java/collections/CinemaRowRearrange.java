@@ -5,12 +5,19 @@ import java.util.List;
 /**
  * Cinema Row Rearrange
  * 
- * Goal: Given a list of viewer ages, move all under-18s to the front while preserving order.
+ * <p>A cinema manager wants to comply with age restrictions and best practices. Minors (viewers under 18)
+ * should sit together in the front for better supervision, while adults can sit behind them.
+ * Rearrange the seating so minors are at the front while maintaining the original order within each group.</p>
+ * 
+ * <p><b>Learning Focus:</b> Filtering list elements based on criteria and maintaining relative order during reorganization.</p>
  */
 public class CinemaRowRearrange {
     /**
-     * Returns a new list where under-18 viewers come first,
-     * preserving original order within groups.
+     * Rearranges viewers by age, placing all minors at the front.
+     * 
+     * @param ages a list of viewer ages
+     * @return a new list where all viewers under 18 appear first (in their original relative order),
+     *         followed by all viewers 18 and older (in their original relative order)
      */
     public static List<Integer> rearrange(List<Integer> ages) {
         // TODO
