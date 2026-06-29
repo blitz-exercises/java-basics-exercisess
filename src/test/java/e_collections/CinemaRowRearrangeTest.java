@@ -1,4 +1,4 @@
-package collections;
+package e_collections;
 
 import org.junit.jupiter.api.Test;
 import java.util.List;
